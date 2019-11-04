@@ -26,6 +26,10 @@ def wishMe():
     time.sleep(5)
     speak("still you thinking what to say right?")
     speak(today,"you have some thing to do now? i am just reminding you!")
+    sleep(10)
+    speak("do you want to order food?")
+
+
 
 
 def take_command():
@@ -35,6 +39,7 @@ def take_command():
         r.pause_threshold =1
         Audio = r.listen(source)
         print(Audio)
+
 
 
 
