@@ -25,7 +25,7 @@ def wishMe():
     speak('i am jarvis,Personal Assistant How May i help you.')
     time.sleep(5)
     speak("still you thinking what to say right?")
-    speak(today,"you have some thing to do now")
+    speak(today,"you have some thing to do now? i am just reminding you!")
 
 
 def take_command():
