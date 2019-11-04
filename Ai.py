@@ -2,7 +2,7 @@ import pyttsx3
 import datetime
 import speech_recognition as sr
 import webbrowser
-
+import time
 
 
 
@@ -18,9 +18,9 @@ def speak(audio):
 
 
 def wishMe():
-    
     speak('i am jarvis,Personal Assistant How May i help you.')
-
+    time.sleep(5)
+    speak("still you thinking what to say right?")
 
 
 
